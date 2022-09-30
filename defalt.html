@@ -1,0 +1,1423 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script>
+        (function (H) {
+            H.className = H.className.replace(/\bno-js\b/, 'js')
+        })(document.documentElement)
+    </script>
+
+    <link rel="stylesheet" href="/css/animation-liabarey.css">
+
+    <title>home</title>
+</head>
+
+<body class="body">
+ 
+
+
+    <div class="c-cookie hidden | js-cookie-bar" data-component="cookie">
+        <div class="c-cookie__content">
+            <p>We use <a href="https://walkie.talkie.be/privacy-policy/" target="_blank"
+                    rel="noreferrer noopener">cookies</a> to enhance your browsing experience. You can customize</p>
+            <span class="js-cookie-preferences">your preferences.</span>
+        </div>
+        <div class="w-full md:w-auto">
+            <button class="c-cookie__btn c-button c-button--invert | js-cookie-accept">
+                <span class="c-button__arrow">
+
+                    <svg class="c-arrow" width="20px" height="14px" viewBox="0 0 22 16" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g class="c-arrow__g">
+                                <rect class="" id="c-arrow__rect" x="0" y="7" width="20" height="2"
+                                    transform="scale(0,1)"></rect>
+                                <polygon points="13.4875 0 12 1.6215 18.7875 8 12 14.3795 13.4875 16 21.9995 8">
+                                </polygon>
+                            </g>
+                        </g>
+                    </svg>
+                </span>
+                <span class="c-button__inner">
+                    Accept all cookies
+                </span>
+            </button>
+        </div>
+    </div>
+
+
+    <div class="c-cookie-modal hidden top-0 left-0 w-screen | js-cookie-modal" aria-hidden="true">
+        <div class="relative h-full w-full flex items-center justify-center md:py-40 lg:py-80">
+            <div class="absolute z-10 top-0 left-0 bg-transparent opacity-50 h-full w-full | js-cookie-modal-exit">
+            </div>
+            <div
+                class="c-cookie-modal__container relative z-20 w-full md:h-auto md:max-h-full overflow-y-auto bg-black flex items-center justify-center | u-shadow--primary">
+                <button
+                    class="c-cookie-modal__exit cursor-pointer absolute z-modal right-0 top-0 m-24 h-16 w-16 | js-cookie-modal-exit">
+                    <div class="c-icon--cross">
+                        <div class="c-icon__inner"></div>
+                    </div>
+                </button>
+                <div class="h-auto max-h-full w-full overflow-y-auto | js-modal-content">
+                    <div class="c-cookie-modal__content">
+                        <h3 class="pb-24 pr-24">Cookie preferences</h3>
+                        <div class="pb-24 mb-24 c-editor">
+                            <p>The information stored in our cookies can give you a more personalized web experience.
+                                Because we respect your right to privacy, you can choose not to allow some types of
+                                cookies but it may impact your experience of the site and the services we are able to
+                                offer.</p>
+                        </div>
+
+                        <form class="c-form flex flex-wrap">
+                            <div class="c-form__row md:w-1/2">
+                                <h5 class="text-primary-color font-heading font-medium text-14 mb-4">Functional cookies
+                                </h5>
+                                <p class="text-white text-18 font-semibold sm:max-w-3/4 mb-8">
+                                <p>Functional cookies are necessary for the website to function and cannot be switched
+                                    off in our systems. These cookies do not store any personally identifiable
+                                    information.</p>
+                                </p>
+                                <div class="w-full c-form__col--checkbox py-8">
+                                    <div class="w-full block">
+                                        <label class="is-unclickable inline-flex items-center" for="functional-cookies">
+                                            <input type="checkbox" name="functional-cookies" value="Active"
+                                                id="functional-cookies"
+                                                class="form-checkbox  form-checkbox c-form-checkbox c-form__input c-form__input--checkbox text-black is-unclickable"
+                                                checked>
+                                            <span class="text-white font-normal ml-4">Active</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="c-form__row md:w-1/2">
+                                <h5 class="text-primary-color font-heading font-medium text-14 mb-4">Analytical cookies
+                                </h5>
+                                <p class="text-white text-18 font-semibold sm:max-w-3/4 mb-8">
+                                <p>All information analytical cookies collect is aggregated and therefore anonymous.
+                                    Keeping these cookies enabled helps us to improve our website.</p>
+                                </p>
+                                <div class="w-full c-form__col--checkbox py-8">
+                                    <div class="w-full block">
+                                        <label class=" inline-flex items-center" for="analytical-cookies">
+                                            <input type="checkbox" name="analytical-cookies" value="Active"
+                                                id="analytical-cookies"
+                                                class="form-checkbox  form-checkbox c-form-checkbox c-form__input c-form__input--checkbox text-black "
+                                                checked>
+                                            <span class="text-white font-normal ml-4">Active</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="c-form__row md:w-1/2">
+                                <h5 class="text-primary-color font-heading font-medium text-14 mb-4">Targeting Cookies
+                                </h5>
+                                <p class="text-white text-18 font-semibold sm:max-w-3/4 mb-8">
+                                <p>These cookies are based on uniquely identifying your browser and internet device. If
+                                    you do not allow these cookies, you will experience less targeted advertising.</p>
+                                </p>
+                                <div class="w-full c-form__col--checkbox py-8">
+                                    <div class="w-full block">
+                                        <label class=" inline-flex items-center" for="marketing-cookies">
+                                            <input type="checkbox" name="marketing-cookies" value="Active"
+                                                id="marketing-cookies"
+                                                class="form-checkbox  form-checkbox c-form-checkbox c-form__input c-form__input--checkbox text-black "
+                                                checked>
+                                            <span class="text-white font-normal ml-4">Active</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-full">
+                                <button id="btn-cookie-preferences-submit"
+                                    class="c-button c-button--invert | js-cookie-preferences-save">
+                                    <span class="c-button__arrow">
+
+                                        <svg class="c-arrow" width="20px" height="14px" viewBox="0 0 22 16"
+                                            version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                <g class="c-arrow__g">
+                                                    <rect class="" id="c-arrow__rect" x="0" y="7" width="20" height="2"
+                                                        transform="scale(0,1)"></rect>
+                                                    <polygon
+                                                        points="13.4875 0 12 1.6215 18.7875 8 12 14.3795 13.4875 16 21.9995 8">
+                                                    </polygon>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </span>
+                                    <span class="c-button__inner">
+                                        Update preferences
+                                    </span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div data-scroll id="js-page-content">
+        <div class="c-page | js-container" data-namespace="home">
+
+            <header class="c-header | js-header js-block" data-component="header" data-menu-responsive="closed">
+                <div class="c-header__inner">
+                    <div class="c-header__background | js-header-opacity" data-direction="forwards"></div>
+                    <div class="o-wrap--full">
+                        <div class="o-grid justify-between sm:items-center">
+                            <div class="o-grid__col w-full sm:w-auto">
+                                <div class="c-header__brand">
+                                    <a class="c-header__brand__a" href="/" aria-label="Launch Pad">
+                                        <div class="c-brand__logo | js-header-opacity js-header-translate"
+                                            data-direction="forwards">
+                                            <div class="c-brand__logo__wrapper" data-scroll data-scroll-speed="-3">
+                                                <div class="c-brand__logo__path">
+                                                    <div class="c-brand__logo__path__inner"></div>
+                                                </div>
+                                                <div class="c-brand__logo__path">
+                                                    <div class="c-brand__logo__path__inner"></div>
+                                                </div>
+                                                <div class="c-brand__logo__path">
+                                                    <div class="c-brand__logo__path__inner"></div>
+                                                </div>
+                                                <div class="c-brand__logo__path">
+                                                    <div class="c-brand__logo__path__inner"></div>
+                                                </div>
+                                                <div class="c-brand__logo__path">
+                                                    <div class="c-brand__logo__path__inner"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <svg class="c-brand" width="94px" height="25px" viewBox="0 0 94 25"
+                                                version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                    <g class="c-brand__fill"
+                                                        transform="translate(-24.000000, -32.000000)">
+                                                        <g transform="translate(24.000000, 32.000000)">
+                                                            <g>
+                                                                <path
+                                                                    d="M12.0812249,18.8245395 C11.5105503,19.4641674 10.6384083,19.8682605 9.06098817,19.8682605 L4.53063314,19.8682605 L4.53063314,13.470307 L9.06098817,13.470307 C10.6384083,13.470307 11.5105503,13.8738419 12.0812249,14.5140279 C12.6179704,15.0866791 12.9199941,15.8273302 12.9199941,16.6695628 C12.9199941,17.5106791 12.6179704,18.2524465 12.0812249,18.8245395 L12.0812249,18.8245395 Z M4.53063314,4.37765581 L7.71884615,4.37765581 C9.12773373,4.37765581 9.76515385,4.71477209 10.2351538,5.21988837 C10.6384083,5.65746977 10.906503,6.26416744 10.906503,6.90379535 C10.906503,7.54342326 10.6384083,8.14956279 10.2351538,8.58714419 C9.76515385,9.09226047 9.12773373,9.42937674 7.71884615,9.42937674 L4.53063314,9.42937674 L4.53063314,4.37765581 Z M13.9267396,10.6751442 C14.6987633,9.86695814 15.436858,8.28463256 15.436858,6.73467907 C15.436858,4.81579535 14.564716,3.13188837 13.2553905,1.98714419 C12.1151538,0.976353488 10.6384083,0.336725581 7.98694083,0.336725581 L0.000278106509,0.336725581 L0.000278106509,23.9091907 L9.16166272,23.9091907 C12.1818994,23.9091907 13.9940414,23.1010047 15.3028107,21.7877023 C16.6121361,20.5084465 17.4503491,18.6900279 17.4503491,16.702493 C17.4503491,14.0764465 16.0075325,11.7188651 13.9267396,10.6751442 L13.9267396,10.6751442 Z"
+                                                                    id="Fill-1"></path>
+                                                                <path
+                                                                    d="M31.3447172,18.1846326 C30.7406698,18.9598884 29.3979716,20.2045395 27.5524568,20.2045395 C26.7136876,20.2045395 25.7736876,19.9360744 25.1023385,19.1948651 C24.5995219,18.622214 24.2974982,17.8815628 24.2974982,16.3997023 L24.2974982,7.5771907 L19.9345633,7.5771907 L19.9345633,16.2317023 C19.9345633,18.6562605 20.5386107,20.3396093 21.578729,21.6194233 C22.8541254,23.202307 24.8676166,24.2460279 27.1158296,24.2460279 C28.6932497,24.2460279 30.2367408,23.7409116 31.5121373,22.5961674 L31.5121373,23.9094698 L35.7070959,23.9094698 L35.7070959,7.5771907 L31.3447172,7.5771907 L31.3447172,18.1846326 Z"
+                                                                    id="Fill-3"></path>
+                                                                <path
+                                                                    d="M47.9890024,20.2052093 C46.3448367,20.2052093 44.9020201,19.3970233 44.0626947,18.1847442 L44.0626947,13.3021395 C44.9687657,12.0898605 46.4121385,11.2816744 48.0902331,11.2816744 C50.6404698,11.2816744 52.2846355,13.4026047 52.2846355,15.760186 C52.2846355,18.3192558 50.4391207,20.2052093 47.9890024,20.2052093 M48.6603515,7.24018605 C46.8815822,7.24018605 45.3380911,7.74530233 44.0626947,8.75553488 L44.0626947,0 L39.700316,0 L39.700316,23.9095814 L43.8952746,23.9095814 L43.8952746,22.5962791 C45.2374166,23.7415814 46.7814639,24.2461395 48.4261858,24.2461395 C50.8418189,24.2461395 53.1239609,23.1689302 54.5667775,21.4844651 C55.842174,20.0037209 56.6475704,17.9832558 56.6475704,15.760186 C56.6475704,10.9445581 53.090032,7.24018605 48.6603515,7.24018605"
+                                                                    id="Fill-5"></path>
+                                                                <polygon
+                                                                    points="75.4859491 7.57696744 69.3448012 7.57696744 63.7403988 12.8636651 63.7403988 0.000223255814 59.3780201 0.000223255814 59.3780201 23.9092465 63.7403988 23.9092465 63.7403988 16.8376186 70.6196414 23.9092465 76.4926947 23.9092465 67.5326592 14.9187349">
+                                                                </polygon>
+                                                                <path
+                                                                    d="M89.379316,18.1846326 C88.5399905,19.3969116 87.097174,20.2050977 85.4530083,20.2050977 C83.0028899,20.2050977 81.1573751,18.3191442 81.1573751,15.7600744 C81.1573751,13.4030512 82.8015408,11.2815628 85.3523337,11.2815628 C87.0298722,11.2815628 88.473245,12.0897488 89.379316,13.3020279 L89.379316,18.1846326 Z M89.5467361,7.57663256 L89.5467361,8.89049302 C88.2718959,7.84677209 86.627174,7.24007442 84.7822154,7.24007442 C80.3519787,7.24007442 76.7944402,10.9444465 76.7944402,15.7600744 C76.7944402,17.9831442 77.5998367,20.0036093 78.8752331,21.4843535 C80.3180497,23.1688186 82.6001917,24.2460279 85.0163811,24.2460279 C86.661103,24.2460279 88.2045941,23.7414698 89.5467361,22.5961674 L89.5467361,23.9094698 L93.7416947,23.9094698 L93.7416947,7.57663256 L89.5467361,7.57663256 Z"
+                                                                    id="Fill-10"></path>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="o-grid__col w-full sm:w-auto">
+                                <div class="c-header__nav">
+
+                                    <nav class="c-nav js-nav-menu" aria-hidden="true" aria-labelledby="js-nav-toggle"
+                                        role="navigation">
+                                        <ul class="c-menu c-menu--main">
+
+
+                                            <li data-menu-link="work" class="js-menu-item | c-menu__item ">
+
+
+                                                <a href="https://www.bubka.be/en/work" class="c-menu__link"
+                                                    title="Work">
+                                                    Work
+                                                </a>
+                                            </li>
+
+
+                                            <li data-menu-link="responsible-growth"
+                                                class="js-menu-item | c-menu__item ">
+
+                                                <span class="c-menu__counter">1</span>
+
+                                                <a href="https://www.bubka.be/en/responsible-growth"
+                                                    class="c-menu__link" title="Responsible Growth">
+                                                    Responsible Growth
+                                                </a>
+                                            </li>
+
+
+                                            <li data-menu-link="about" class="js-menu-item | c-menu__item ">
+
+
+                                                <a href="https://www.bubka.be/en/about" class="c-menu__link"
+                                                    title="About">
+                                                    About
+                                                </a>
+                                            </li>
+
+
+                                            <li data-menu-link="clients" class="js-menu-item | c-menu__item ">
+
+
+                                                <a href="https://www.bubka.be/en/clients" class="c-menu__link"
+                                                    title="Clients">
+                                                    Clients
+                                                </a>
+                                            </li>
+
+
+                                            <li data-menu-link="news" class="js-menu-item | c-menu__item ">
+
+                                                <span class="c-menu__counter">2</span>
+
+                                                <a href="https://www.bubka.be/en/news" class="c-menu__link"
+                                                    title="News">
+                                                    News
+                                                </a>
+                                            </li>
+
+
+                                            <li data-menu-link="jobs" class="js-menu-item | c-menu__item ">
+
+                                                <span class="c-menu__counter">4</span>
+
+                                                <a href="https://www.bubka.be/en/jobs" class="c-menu__link"
+                                                    title="Jobs">
+                                                    Jobs
+                                                </a>
+                                            </li>
+
+
+                                            <li data-menu-link="contact" class="js-menu-item | c-menu__item ">
+
+
+                                                <a href="https://www.bubka.be/en/contact" class="c-menu__link"
+                                                    title="Contact">
+                                                    Contact
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="c-header__toggle | js-header-toggle-menu" aria-label="Menu" aria-expanded="false"
+                            aria-controls="menu">
+                            <div class="c-header__toggle__icon">
+                                <div class="c-icon--hamburger"></div>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </header>
+
+            <div data-scroll-container>
+                <main class="c-main | js-main">
+
+                    <section class="c-section c-banner c-banner--home | js-block" data-component="banner-switch"
+                        data-speed="0.35" data-scroll>
+                        <div class="c-banner--home__background" data-fade-speed=".75" data-scroll
+                            data-scroll-position="top">
+                            <div class="c-brand__logo">
+                                <div class="c-brand__logo__wrapper" data-scroll>
+                                    <div class="c-brand__logo__path" data-scroll data-scroll-position="top"
+                                        data-scroll-delay="0.13" data-scroll-speed="4">
+                                        <div class="c-brand__logo__path__inner"></div>
+                                    </div>
+                                    <div class="c-brand__logo__path" data-scroll data-scroll-position="top"
+                                        data-scroll-delay="0.12" data-scroll-speed="3.5">
+                                        <div class="c-brand__logo__path__inner"></div>
+                                    </div>
+                                    <div class="c-brand__logo__path" data-scroll data-scroll-position="top"
+                                        data-scroll-delay="0.11" data-scroll-speed="3">
+                                        <div class="c-brand__logo__path__inner"></div>
+                                    </div>
+                                    <div class="c-brand__logo__path" data-scroll data-scroll-position="top"
+                                        data-scroll-delay="0.1" data-scroll-speed="2.5">
+                                        <div class="c-brand__logo__path__inner"></div>
+                                    </div>
+                                    <div class="c-brand__logo__path" data-scroll data-scroll-position="top"
+                                        data-scroll-delay="0.9" data-scroll-speed="2">
+                                        <div class="c-brand__logo__path__inner"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="o-wrap">
+                            <div class="o-grid">
+                                <div class="o-grid__col w-full">
+                                    <div class="c-banner__text" data-scroll>
+                                        <h2 class="js-banner-switch-el | flex items-end">
+                                            <span data-scroll data-scroll-position="top" data-scroll-speed=".5">
+                                                <a href="#cases" class="c-banner__switch | js-banner-switch-button">
+                                                    <div class="c-banner__switch__words">
+                                                        <span
+                                                            class="c-banner__switch__word is-active | js-banner-switch-word"
+                                                            data-slide="103961">
+                                                            <span>Will&nbsp;you<br />
+                                                                become&nbsp;a<br />
+                                                                Climate&nbsp;Hero?</span>
+                                                        </span>
+                                                        <span class="c-banner__switch__word  | js-banner-switch-word"
+                                                            data-slide="103962">
+                                                            <span>Will&nbsp;you<br />
+                                                                become&nbsp;a<br />
+                                                                Sales&nbsp;Driver?</span>
+                                                        </span>
+                                                        <span class="c-banner__switch__word  | js-banner-switch-word"
+                                                            data-slide="103963">
+                                                            <span>Will&nbsp;you<br />
+                                                                become<br />
+                                                                Sustainable?</span>
+                                                        </span>
+                                                        <span class="c-banner__switch__word  | js-banner-switch-word"
+                                                            data-slide="103964">
+                                                            <span>Will&nbsp;you<br />
+                                                                become&nbsp;a<br />
+                                                                Billionaire?</span>
+                                                        </span>
+                                                        <span class="c-banner__switch__word  | js-banner-switch-word"
+                                                            data-slide="103965">
+                                                            <span>Will&nbsp;you<br />
+                                                                become&nbsp;a<br />
+                                                                Client?</span>
+                                                        </span>
+                                                        <span class="c-banner__switch__word  | js-banner-switch-word"
+                                                            data-slide="103966">
+                                                            <span>Will&nbsp;you<br />
+                                                                become&nbsp;a<br />
+                                                                Viking?</span>
+                                                        </span>
+                                                    </div>
+                                                </a>
+                                            </span>
+                                        </h2>
+                                        <p>
+                                            <span data-scroll data-scroll-position="top" data-scroll-speed=".25">
+                                                Stand out. Grow strong.
+                                            </span>
+                                        </p>
+                                    </div>
+
+                                    <div class="c-banner__arrow">
+                                        <svg viewBox="0 0 78 81" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g id="Page-1" stroke="none" stroke-width="1" fill="none"
+                                                fill-rule="evenodd">
+                                                <g id="Home" transform="translate(-106.000000, -647.000000)"
+                                                    stroke="#010001">
+                                                    <g id="Group-5" transform="translate(112.000000, 648.000000)">
+                                                        <polyline id="Stroke-1" stroke-width="15"
+                                                            points="0 37 33 69 66 37"></polyline>
+                                                        <path d="M33.5,66.8275862 L33,0" id="Stroke-3"
+                                                            stroke-width="18"></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </div>
+
+                                    <div class="c-banner__images">
+
+                                        <div class="c-banner__image is-active | js-banner-switch-illustration"
+                                            data-slide="103961">
+                                            <div class="c-banner__image__inner">
+                                                <img alt="Glas"
+                                                    src="/images/1.webp"
+                                                    srcset="/images/1.webp"
+                                                    sizes="33vw">
+                                            </div>
+                                        </div>
+                                        <div class="c-banner__image  | js-banner-switch-illustration"
+                                            data-slide="103962">
+                                            <div class="c-banner__image__inner">
+                                                <img alt="octoguy"
+                                                    src="/images/2.webp"
+                                                    srcset="/images/2.webp"
+                                                    sizes="33vw">
+                                            </div>
+                                        </div>
+                                        <div class="c-banner__image  | js-banner-switch-illustration"
+                                            data-slide="103963">
+                                            <div class="c-banner__image__inner">
+                                                <img alt="Schorpioen"
+                                                    src="/images/3.webp"
+                                                    srcset="/images/3.webp"
+                                                    sizes="33vw">
+                                            </div>
+                                        </div>
+                                        <div class="c-banner__image  | js-banner-switch-illustration"
+                                            data-slide="103964">
+                                            <div class="c-banner__image__inner">
+                                                <img alt="Cat" src="/images/4.webp"
+                                                    srcset="/images/4.webp"
+                                                    sizes="33vw">
+                                            </div>
+                                        </div>
+                                        <div class="c-banner__image  | js-banner-switch-illustration"
+                                            data-slide="103965">
+                                            <div class="c-banner__image__inner">
+                                                <img alt="octoguy"
+                                                    src="/images/5.webp"
+                                                    srcset="/images/5.webp"
+                                                    sizes="33vw">
+                                            </div>
+                                        </div>
+                                        <div class="c-banner__image  | js-banner-switch-illustration"
+                                            data-slide="103966">
+                                            <div class="c-banner__image__inner">
+                                                <img alt="skull"
+                                                    src="/images/3.webp"
+                                                    srcset="/images/3.webp"
+                                                    sizes="33vw">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <section class="c-section c-section--case-studies | js-animate js-is-viewed" data-section
+                        id="cases">
+                        <div class="o-wrap--full">
+                            <div class="o-grid">
+                                <div class="o-grid__col c-case-study-grid | js-animate-part">
+                                    <a href="#;"
+                                        class="c-case-study__thumb | js-block" data-component="thumb-resize">
+                                        <div class="c-case-study__thumb__inner">
+                                            <div class="c-case-study__thumb__image">
+
+
+
+
+
+
+                                                <img alt="Header vuilnis bebat 2"
+                                                    src="/images/Header-vuilnis-bebat.jpg"
+                                                    data-srcset="/images/Header-vuilnis-bebat.jpg"
+                                                    data-sizes="(min-width: 1200px) 1200px, 100vw" class="lazyload">
+
+                                            </div>
+                                            <div class="c-case-study__thumb__text">
+                                                <div class="c-case-study__thumb__title">
+                                                    <h3>Two birds, one stone: draw attention to misplaced batteries and
+                                                        <span class="is-wrapped">solve the attention deficit</span></h3>
+
+                                                </div>
+                                                <div class="c-case-study__thumb__brand">
+                                                    Bebat
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="o-grid__col c-case-study-grid | js-animate-part">
+                                    <a href="#;"
+                                        class="c-case-study__thumb | js-block" data-component="thumb-resize">
+                                        <div class="c-case-study__thumb__inner">
+                                            <div class="c-case-study__thumb__image">
+
+
+
+
+
+
+                                                <img alt="6137 BUB BAM congres Presa 16x9 EN frame button"
+                                                    src="/images/6137BUB-BAM-congres.jpg"
+                                                    data-srcset="/images/6137BUB-BAM-congres.jpg"
+                                                    data-sizes="(min-width: 1200px) 1200px, 100vw" class="lazyload">
+
+                                            </div>
+                                            <div class="c-case-study__thumb__text">
+                                                <div class="c-case-study__thumb__title">
+                                                    81% of sustainability ads lack credibility. And your campaigns?
+                                                </div>
+                                                <div class="c-case-study__thumb__brand">
+                                                    RESEARCH: The Credibility Deficit
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="o-grid__col c-case-study-grid | js-animate-part">
+                                    <a href="#;"
+                                        class="c-case-study__thumb | js-block" data-component="thumb-resize">
+                                        <div class="c-case-study__thumb__inner">
+                                            <div class="c-case-study__thumb__image">
+
+
+
+
+
+
+                                                <img alt="BUBKA Work Bosto Header"
+                                                    src="/images/BUBKA-Work-Bosto-Header.jpg"
+                                                    data-srcset="/images/BUBKA-Work-Bosto-Header.jpg"
+                                                    data-sizes="(min-width: 1200px) 1200px, 100vw" class="lazyload">
+
+                                            </div>
+                                            <div class="c-case-study__thumb__text">
+                                                <div class="c-case-study__thumb__title">
+                                                    <h2>Becoming a market leader, <span class="is-wrapped">by caring for
+                                                            people</span></h2>
+
+                                                </div>
+                                                <div class="c-case-study__thumb__brand">
+                                                    Bosto
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="o-grid__col c-case-study-grid | js-animate-part">
+                                    <a href="#;"
+                                        class="c-case-study__thumb | js-block" data-component="thumb-resize">
+                                        <div class="c-case-study__thumb__inner">
+                                            <div class="c-case-study__thumb__image">
+
+
+
+
+
+
+                                                <img alt="G17 Eco header thatcher"
+                                                    src="/images/G17Eco-header-thatcher.jpg"
+                                                    data-srcset="/images/G17Eco-header-thatcher.jpg"
+                                                    data-sizes="(min-width: 1200px) 1200px, 100vw" class="lazyload">
+
+                                            </div>
+                                            <div class="c-case-study__thumb__text">
+                                                <div class="c-case-study__thumb__title">
+                                                    <p>Bubka verandert de wereld <span class="is-wrapped">met G17</span>
+                                                    </p>
+                                                </div>
+                                                <div class="c-case-study__thumb__brand">
+                                                    G17
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="o-grid__col c-cta--work--grid | js-animate-part">
+                                    <div class="c-cta c-cta--work">
+                                        <div class="c-cta--work__inner">
+                                            <a href="#;" class="c-button c-button--black"
+                                                target="_self">
+                                                <span class="c-button__arrow">
+
+                                                    <svg class="c-arrow" width="20px" height="14px" viewBox="0 0 22 16"
+                                                        version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                        <g stroke="none" stroke-width="1" fill="none"
+                                                            fill-rule="evenodd">
+                                                            <g class="c-arrow__g">
+                                                                <rect class="" id="c-arrow__rect" x="0" y="7" width="20"
+                                                                    height="2" transform="scale(0,1)"></rect>
+                                                                <polygon
+                                                                    points="13.4875 0 12 1.6215 18.7875 8 12 14.3795 13.4875 16 21.9995 8">
+                                                                </polygon>
+                                                            </g>
+                                                        </g>
+                                                    </svg>
+                                                </span>
+                                                <span class="c-button__inner">
+                                                    view more work!
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="c-cta--work__illustration">
+                                            <img data-src="/images/Cat.png" class="lazyload" alt="it's a cat!">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="c-section js-animate js-not-viewed" data-section>
+                        <div class="o-wrap">
+                            <div class="o-grid justify-center">
+                                <div class="o-grid__col js-animate-part">
+                                    <div class="c-cta c-cta--illustration  text-left  ">
+                                        <div class="c-cta__illustration" data-scroll data-scroll-speed=".5"
+                                            data-scroll-delay=".5">
+                                            <div class="c-cta__illustration__inner">
+
+
+
+
+
+
+                                                <img alt="octoguy"
+                                                    src="/images/Octoguy.png"
+                                                    data-srcset="/images/Octoguy.png"
+                                                    data-sizes="(min-width: 1200px) 1200px, 100vw" class="lazyload">
+
+                                            </div>
+                                        </div>
+
+                                        <div class="c-cta__text | c-wrap-text | js-block" data-component="wrap-text">
+                                            <h2 class="relative z-10">Rejoice! <span class="is-wrapped">We're Innovator
+                                                    Agency of the Year.</span></h2>
+
+
+                                            <a href="#;"
+                                                class="c-button " target="_self">
+                                                <span class="c-button__arrow">
+
+                                                    <svg class="c-arrow" width="20px" height="14px" viewBox="0 0 22 16"
+                                                        version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                        <g stroke="none" stroke-width="1" fill="none"
+                                                            fill-rule="evenodd">
+                                                            <g class="c-arrow__g">
+                                                                <rect class="" id="c-arrow__rect" x="0" y="7" width="20"
+                                                                    height="2" transform="scale(0,1)"></rect>
+                                                                <polygon
+                                                                    points="13.4875 0 12 1.6215 18.7875 8 12 14.3795 13.4875 16 21.9995 8">
+                                                                </polygon>
+                                                            </g>
+                                                        </g>
+                                                    </svg>
+                                                </span>
+                                                <span class="c-button__inner">
+                                                    Yep, that&#039;s us!
+                                                </span>
+                                            </a>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="c-section c-section--md c-text-scroll | js-animate js-not-viewed">
+                        <div class="c-text-scroll__text -top" data-scroll data-scroll-direction="horizontal"
+                            data-scroll-speed="3">
+                            <div class="c-text-scroll__text__inner | js-animate-part">
+                                <div class="c-text-scroll__text__offset">
+                                    Stand out.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="c-text-scroll__text -bottom" data-scroll data-scroll-direction="horizontal"
+                            data-scroll-speed="-3">
+                            <div class="c-text-scroll__text__inner | js-animate-part">
+                                <div class="c-text-scroll__text__offset">
+                                    Grow strong.
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="c-section c-section--md c-section--carousel | js-animate js-not-viewed | js-block"
+                        data-component="carousel" data-exit-viewport="revert">
+                        <div class="c-banner c-banner--sm">
+                            <div class="o-wrap">
+                                <div class="o-grid items-end justify-between">
+                                    <div class="o-grid__col w-full lg:w-2/3">
+                                        <div class="c-banner__text c-wrap-text | js-block" data-component="wrap-text">
+                                            <h2>This is what <span class="is-wrapped">our clients</span> say about us
+                                            </h2>
+                                        </div>
+                                    </div>
+
+                                    <div class="o-grid__col">
+                                        <div class="c-carousel__controls">
+                                            <div class="c-carousel__controls__prev | swiper-button-prev">
+                                                <div class="c-carousel__controls__icon | swiper-button-prev__icon">
+                                                </div>
+                                            </div>
+
+                                            <div class="c-carousel__controls__next | swiper-button-next">
+                                                <div class="c-carousel__controls__icon | swiper-button-next__icon">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="c-carousel">
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="js-slide | swiper-slide c-carousel__item c-carousel__item--quote ">
+                                        <div class="c-carousel__item__inner c-carousel__item__inner--quote ">
+                                            <div class="c-quote">
+                                                <div class="c-quote__wrapper">
+                                                    <blockquote>
+                                                        <p>“There is some genuinely fresh creative work in here …
+                                                            especially in the OOH media. These guys are clearly an
+                                                            agency to be kept on our hit list for future films.”<br />
+                                                        </p>
+                                                        <em>
+                                                            Jason Bevan, Warner Bros. Entertainment Inc
+                                                        </em>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="js-slide | swiper-slide c-carousel__item c-carousel__item--quote ">
+                                        <div class="c-carousel__item__inner c-carousel__item__inner--quote ">
+                                            <div class="c-quote">
+                                                <div class="c-quote__wrapper">
+                                                    <blockquote>
+                                                        <p>“You guys are on a roll! Double the interaction on our page
+                                                            in just a quarter of the benchmark amount of posts."</p>
+                                                        <em>
+                                                            Nele Peeters, Marketing Manager Bebat
+                                                        </em>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="js-slide | swiper-slide c-carousel__item c-carousel__item--quote ">
+                                        <div class="c-carousel__item__inner c-carousel__item__inner--quote ">
+                                            <div class="c-quote">
+                                                <div class="c-quote__wrapper">
+                                                    <blockquote>
+                                                        <p>“In touch with my market, collaborative thinking and taking
+                                                            initiatives, creative solutions and fast, accurate action.
+                                                            And on top of that, I get to work with fun people at Bubka.
+                                                            Together, we’ve been finding the best ways to make Bosto
+                                                            grow year after year.” </p>
+                                                        <em>
+                                                            Ann Vermeiren, Senior Product Manager Bosto
+                                                        </em>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="js-slide | swiper-slide c-carousel__item c-carousel__item--video ">
+                                        <div class="c-carousel__item__inner c-carousel__item__inner--video ">
+
+
+                                            <div class="c-video">
+                                                <a href="#video--1" data-video-url=""
+                                                    data-video-embedded="&lt;iframe src=&quot;https://player.vimeo.com/video/359476488&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;"
+                                                    data-video-extension="" data-component="lightbox"
+                                                    class="c-video__link | js-block">
+                                                    <figure>
+
+
+                                                        <img class="lazyload w-full"
+                                                            src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%271882%27%20height%3D%271042%27%20style%3D%27background%3A%23DFDFDF%27%2F%3E"
+                                                            data-sizes="100vw"
+                                                            data-srcset="/uploads/resized/uploads/10769/Schermafbeelding-2019-09-11-om-17.18.00_1f4c6b9f363e799fb165f0c4c445ba8d.jpg 1200w, /uploads/resized/uploads/10769/Schermafbeelding-2019-09-11-om-17.18.00_b283f58849abaad6c82e4e650906ebc2.jpg 1024w, /uploads/resized/uploads/10769/Schermafbeelding-2019-09-11-om-17.18.00_271ccb15c83038c9eb7a03d0bfe4d8e6.jpg 768w"
+                                                            alt="Schermafbeelding 2019 09 11 om 17 18 00">
+                                                    </figure>
+                                                </a>
+                                                <span class="c-video__play"></span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="js-slide | swiper-slide c-carousel__item c-carousel__item--quote ">
+                                        <div class="c-carousel__item__inner c-carousel__item__inner--quote ">
+                                            <div class="c-quote">
+                                                <div class="c-quote__wrapper">
+                                                    <blockquote>
+                                                        <p>“Thank you for the wonderful collaboration on our pancake
+                                                            campaign. We’ve really made something beautiful together.
+                                                            The results are great and we’ve received so many positive
+                                                            reactions!“ </p>
+                                                        <em>
+                                                            Gayaneh Beirens, Product Manager, Dr. Oetker Belgium
+                                                        </em>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="c-section c-section-clients | js-animate js-not-viewed" data-section
+                        data-exit-viewport="revert">
+                        <div class="c-banner c-banner--clients">
+                            <div class="o-wrap | js-animate-part">
+                                <div class="o-grid items-end justify-between">
+                                    <div class="o-grid__col w-full lg:w-2/3">
+                                        <div class="c-banner__text c-wrap-text | js-block" data-component="wrap-text">
+                                            <h2>Here are some <span class="is-wrapped">clients</span> who enjoy <span
+                                                    class="is-wrapped">standing out.</span></h2>
+                                        </div>
+                                    </div>
+
+                                    <div class="o-grid__col">
+                                        <div class="js-animate-part">
+                                            <div class="c-banner__button hidden lg:block">
+
+
+                                                <a href="https://www.bubka.be/en/clients" class="c-button "
+                                                    target="_self">
+                                                    <span class="c-button__arrow">
+
+                                                        <svg class="c-arrow" width="20px" height="14px"
+                                                            viewBox="0 0 22 16" version="1.1"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                            <g stroke="none" stroke-width="1" fill="none"
+                                                                fill-rule="evenodd">
+                                                                <g class="c-arrow__g">
+                                                                    <rect class="" id="c-arrow__rect" x="0" y="7"
+                                                                        width="20" height="2" transform="scale(0,1)">
+                                                                    </rect>
+                                                                    <polygon
+                                                                        points="13.4875 0 12 1.6215 18.7875 8 12 14.3795 13.4875 16 21.9995 8">
+                                                                    </polygon>
+                                                                </g>
+                                                            </g>
+                                                        </svg>
+                                                    </span>
+                                                    <span class="c-button__inner">
+                                                        See all our clients
+                                                    </span>
+                                                </a>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="o-wrap">
+                            <div class="o-grid">
+                                <div class="o-grid__col w-full">
+                                    <div class="c-section__logos -divisible-by-4  ">
+                                        <div
+                                            class="o-grid__col w-1/2  lg:w-1/4 | c-section--clients__col | js-animate-part">
+                                            <a href="https://www.bubka.be/en/case-study/baloise-insurance-1"
+                                                rel="noreferrer" target="_blank" class="c-client">
+                                                <div class="c-client__image">
+
+
+
+
+
+
+                                                    <img alt="Baloise"
+                                                        src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27300%27%20height%3D%27188%27%20style%3D%27background%3Atransparent%27%2F%3E"
+                                                        data-srcset="/uploads/resized/logos/36017/baloise_200311_143746_2da1eea50bd71bc93075d22a454ae02a.png 300w"
+                                                        data-sizes="(min-width: 1200px) 1200px, 100vw" class="lazyload">
+
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div
+                                            class="o-grid__col w-1/2  lg:w-1/4 | c-section--clients__col | js-animate-part">
+                                            <div class="c-client">
+                                                <div class="c-client__image">
+
+
+
+
+
+
+                                                    <img alt="Bebat"
+                                                        src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27300%27%20height%3D%27188%27%20style%3D%27background%3Atransparent%27%2F%3E"
+                                                        data-srcset="/uploads/resized/logos/36006/bebat_2da1eea50bd71bc93075d22a454ae02a.png 300w"
+                                                        data-sizes="(min-width: 1200px) 1200px, 100vw" class="lazyload">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="o-grid__col w-1/2  lg:w-1/4 | c-section--clients__col | js-animate-part">
+                                            <div class="c-client">
+                                                <div class="c-client__image">
+
+
+
+
+
+
+                                                    <img alt="Bosto"
+                                                        src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27232%27%20height%3D%2790%27%20style%3D%27background%3Atransparent%27%2F%3E"
+                                                        data-srcset="/uploads/resized/logos/3092/bosto_2da1eea50bd71bc93075d22a454ae02a.png 232w"
+                                                        data-sizes="(min-width: 1200px) 1200px, 100vw" class="lazyload">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="o-grid__col w-1/2  lg:w-1/4 | c-section--clients__col | js-animate-part">
+                                            <div class="c-client">
+                                                <div class="c-client__image">
+
+
+
+
+
+
+                                                    <img alt="Gezinsbond"
+                                                        src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27134%27%20height%3D%27190%27%20style%3D%27background%3Atransparent%27%2F%3E"
+                                                        data-srcset="/uploads/resized/logos/3094/gezinsbond_2da1eea50bd71bc93075d22a454ae02a.png 134w"
+                                                        data-sizes="(min-width: 1200px) 1200px, 100vw" class="lazyload">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="o-grid__col w-1/2  lg:w-1/4 | c-section--clients__col | js-animate-part">
+                                            <div class="c-client">
+                                                <div class="c-client__image">
+
+
+
+
+
+
+                                                    <img alt="Rkv"
+                                                        src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27300%27%20height%3D%27188%27%20style%3D%27background%3Atransparent%27%2F%3E"
+                                                        data-srcset="/uploads/resized/logos/36021/rkv_2da1eea50bd71bc93075d22a454ae02a.png 300w"
+                                                        data-sizes="(min-width: 1200px) 1200px, 100vw" class="lazyload">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="o-grid__col w-1/2  lg:w-1/4 | c-section--clients__col | js-animate-part">
+                                            <div class="c-client">
+                                                <div class="c-client__image">
+
+
+
+
+
+
+                                                    <img alt="Unicef"
+                                                        src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27300%27%20height%3D%27188%27%20style%3D%27background%3Atransparent%27%2F%3E"
+                                                        data-srcset="/uploads/resized/logos/36015/unicef_2da1eea50bd71bc93075d22a454ae02a.png 300w"
+                                                        data-sizes="(min-width: 1200px) 1200px, 100vw" class="lazyload">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="o-grid__col w-1/2  lg:w-1/4 | c-section--clients__col | js-animate-part">
+                                            <div class="c-client">
+                                                <div class="c-client__image">
+
+
+
+
+
+
+                                                    <img alt="Vlaanderen"
+                                                        src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27326%27%20height%3D%27156%27%20style%3D%27background%3Atransparent%27%2F%3E"
+                                                        data-srcset="/uploads/resized/logos/3098/vlaanderen_2da1eea50bd71bc93075d22a454ae02a.png 326w"
+                                                        data-sizes="(min-width: 1200px) 1200px, 100vw" class="lazyload">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="o-grid__col w-1/2  lg:w-1/4 | c-section--clients__col | js-animate-part">
+                                            <div class="c-client">
+                                                <div class="c-client__image">
+
+
+
+
+
+
+                                                    <img alt="Warner"
+                                                        src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27166%27%20height%3D%27154%27%20style%3D%27background%3Atransparent%27%2F%3E"
+                                                        data-srcset="/uploads/resized/logos/3100/warner_2da1eea50bd71bc93075d22a454ae02a.png 166w"
+                                                        data-sizes="(min-width: 1200px) 1200px, 100vw" class="lazyload">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="js-animate-part">
+                                <div class="c-banner__button block lg:hidden">
+
+
+                                    <a href="https://www.bubka.be/en/clients" class="c-button " target="_self">
+                                        <span class="c-button__arrow">
+
+                                            <svg class="c-arrow" width="20px" height="14px" viewBox="0 0 22 16"
+                                                version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                    <g class="c-arrow__g">
+                                                        <rect class="" id="c-arrow__rect" x="0" y="7" width="20"
+                                                            height="2" transform="scale(0,1)"></rect>
+                                                        <polygon
+                                                            points="13.4875 0 12 1.6215 18.7875 8 12 14.3795 13.4875 16 21.9995 8">
+                                                        </polygon>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                        <span class="c-button__inner">
+                                            See all our clients
+                                        </span>
+                                    </a>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="c-section c-section--text-image  | js-animate js-not-viewed" data-section>
+                        <div class="c-section__inner">
+                            <div class="o-wrap | js-animate-part">
+                                <div class="o-grid -wide-gutters flex-row-reverse ">
+                                    <div class="o-grid__col w-full lg:w-1/2 c-section--text-image__image--left">
+                                        <div class="c-banner c-banner--sm">
+                                            <div class="c-banner__text c-wrap-text | js-block"
+                                                data-component="wrap-text">
+                                                <h2>Be part of the <span class="is-wrapped">decade of action</span></h2>
+                                            </div>
+                                        </div>
+                                        <div class="c-article c-article--inline">
+
+                                        </div>
+                                    </div>
+
+                                    <div class="o-grid__col w-full lg:w-1/2">
+                                        <div class="js-animate-part">
+
+                                            <div class="o-image w-full o-image--square">
+                                                <div class="o-image__inner" data-scroll data-scroll-speed="-1">
+
+
+
+
+
+                                                    <img alt="Bubka sfeerbeeld3 1000px"
+                                                        src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%271000%27%20height%3D%27666%27%20style%3D%27background%3Atransparent%27%2F%3E"
+                                                        data-src="/uploads/resized/uploads/9976/Bubka-sfeerbeeld3_1000px_48bc8524afc7796d5a2096a3b8960d41.jpg"
+                                                        data-srcset="/uploads/resized/uploads/9976/Bubka-sfeerbeeld3_1000px_1f6e26132c9cee816d2eae7822a77ee4.jpg 480w, /uploads/resized/uploads/9976/Bubka-sfeerbeeld3_1000px_117278d82ea124f44ea4fb8aab566a0f.jpg 768w, /uploads/resized/uploads/9976/Bubka-sfeerbeeld3_1000px_84b734e6e04a8edb4301728b85617abe.jpg 1000w"
+                                                        data-sizes="(min-width: 1200px) 1200px, 100vw" class="lazyload"
+                                                        style="object-position: 40.65% 34.86%;">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="c-section c-section--ctablocks | js-animate js-not-viewed" data-section
+                        data-exit-viewport="revert">
+                        <div class="o-wrap">
+                            <div class="o-grid">
+                                <div class="o-grid__col w-full lg:w-1/2 | js-animate-part">
+                                    <div class="c-cta   text-left  ">
+
+                                        <div class="c-cta__text | c-wrap-text | js-block" data-component="wrap-text">
+                                            <h2 class="relative z-10">Would you like <br />to <span
+                                                    class="is-wrapped">work at <br />Bubka</span>?</h2>
+
+
+                                            <a href="/jobs#vacancies" class="c-button " target="_self">
+                                                <span class="c-button__arrow">
+
+                                                    <svg class="c-arrow" width="20px" height="14px" viewBox="0 0 22 16"
+                                                        version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                        <g stroke="none" stroke-width="1" fill="none"
+                                                            fill-rule="evenodd">
+                                                            <g class="c-arrow__g">
+                                                                <rect class="" id="c-arrow__rect" x="0" y="7" width="20"
+                                                                    height="2" transform="scale(0,1)"></rect>
+                                                                <polygon
+                                                                    points="13.4875 0 12 1.6215 18.7875 8 12 14.3795 13.4875 16 21.9995 8">
+                                                                </polygon>
+                                                            </g>
+                                                        </g>
+                                                    </svg>
+                                                </span>
+                                                <span class="c-button__inner">
+                                                    See if there&#039;s a job or an internship for you.
+                                                </span>
+                                            </a>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="o-grid__col w-full lg:w-1/2 | js-animate-part">
+                                    <div class="c-cta c-cta--illustration  text-left  c-cta--inset">
+                                        <div class="c-cta__illustration" data-scroll data-scroll-speed=".5"
+                                            data-scroll-delay=".5">
+                                            <div class="c-cta__illustration__inner">
+
+
+
+
+
+
+                                                <img alt="Glas"
+                                                    src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%271292%27%20height%3D%271620%27%20style%3D%27background%3Atransparent%27%2F%3E"
+                                                    data-srcset="/uploads/resized/illustrations/3348/Glas_2da1eea50bd71bc93075d22a454ae02a.png 480w, /uploads/resized/illustrations/3348/Glas_8530f8612595b8e71870ea51ce12b72d.png 768w, /uploads/resized/illustrations/3348/Glas_522d3b88416e4eead15204bfdd5e3421.png 1024w, /uploads/resized/illustrations/3348/Glas_9ad18c49fa6f683ebe59adb1925c1948.png 1292w"
+                                                    data-sizes="(min-width: 1200px) 1200px, 100vw" class="lazyload">
+
+                                            </div>
+                                        </div>
+
+                                        <div class="c-cta__text | c-wrap-text | js-block" data-component="wrap-text">
+                                            <h2 class="relative z-10">What type <br />of Bubka <br />are you?</h2>
+
+
+                                            <a href="https://www.bubka.be/en/jobs/careerfitter" class="c-button "
+                                                target="_self">
+                                                <span class="c-button__arrow">
+
+                                                    <svg class="c-arrow" width="20px" height="14px" viewBox="0 0 22 16"
+                                                        version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                        <g stroke="none" stroke-width="1" fill="none"
+                                                            fill-rule="evenodd">
+                                                            <g class="c-arrow__g">
+                                                                <rect class="" id="c-arrow__rect" x="0" y="7" width="20"
+                                                                    height="2" transform="scale(0,1)"></rect>
+                                                                <polygon
+                                                                    points="13.4875 0 12 1.6215 18.7875 8 12 14.3795 13.4875 16 21.9995 8">
+                                                                </polygon>
+                                                            </g>
+                                                        </g>
+                                                    </svg>
+                                                </span>
+                                                <span class="c-button__inner">
+                                                    Let&#039;s find out!
+                                                </span>
+                                            </a>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+
+                <div class="c-footer | js-animate js-animate--opacity js-not-viewed" role="contentinfo">
+                    <div class="js-animate-part">
+                        <div class="c-footer__main">
+                            <div class="o-wrap">
+                                <div class="o-grid">
+                                    <div class="o-grid__col lg:w-2/3">
+                                        <div class="footer__text">
+                                            <h2>Come visit. <br />Share thoughts.<br />Have a drink.</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="o-wrap | c-footer__contact">
+                                <div class="o-grid">
+                                    <div class="o-grid__col w-full lg:w-1/2">
+                                        <div class="o-grid">
+                                            <div class="o-grid__col w-1/2">
+                                                <label>Address</label>
+                                                <p>Rijnkaai 37 <br />7th floor<br />B-2000 Antwerp</p>
+                                            </div>
+
+                                            <div class="o-grid__col w-1/2">
+                                                <label>General</label>
+                                                <a href="mailto:info@bubka.be">info@bubka.be</a><br>
+                                                +32 3 206 86 00
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="o-grid__col w-full lg:w-1/2 mt-32 lg:mt-0">
+
+                                        <!-- Begin Mailchimp Signup Form -->
+                                        <div id="mc_embed_signup" class="js-block" data-component="newsletter">
+                                            <form
+                                                action="https://bubka.us9.list-manage.com/subscribe/post?u=b1c7273d113365a6b9395c1dc&amp;id=249bf89a3d&SRCFRM=Footer"
+                                                class="c-form -dark validate " id="mc-embedded-subscribe-form"
+                                                method="post" name="mc-embedded-subscribe-form" novalidate
+                                                target="_blank">
+                                                <div id="mc_embed_signup_scroll">
+                                                    <div class="c-form__item | mc-field-group | js-newsletter-item">
+                                                        <label for="mce-EMAIL">Newsletter</label>
+                                                        <input class="required email js-newsletter-input" id="mce-EMAIL"
+                                                            name="EMAIL" placeholder="Fill in your email address"
+                                                            type="email" value="">
+
+                                                        <div class="c-form__input__error -email">
+                                                            is not a valid e-mailadress
+                                                        </div>
+                                                    </div>
+                                                    <div class="c-form__item c-form__item--checkbox | js-newsletter-item | content__gdpr"
+                                                        id="mergeRow-gdpr">
+                                                        <input class="av-checkbox js-newsletter-input" id="gdpr_9433"
+                                                            name="gdpr[9433]" type="checkbox" value="Y">
+                                                        <label class="checkbox subfield" for="gdpr_9433">
+                                                            I accept the&nbsp;<a
+                                                                href="https://www.bubka.be/en/terms-conditions"
+                                                                target="_blank" rel="noreferrer">terms and
+                                                                conditions</a>.</label>
+                                                    </div>
+                                                    <div class="clear" id="mce-responses">
+                                                        <div class="response" id="mce-error-response"
+                                                            style="display:none"></div>
+                                                        <div class="response" id="mce-success-response"
+                                                            style="display:none"></div>
+                                                    </div>
+
+                                                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                                    <div aria-hidden="true" style="position: absolute; left: -5000px;">
+                                                        <input class="js-newsletter-input"
+                                                            name="b_b1c7273d113365a6b9395c1dc_249bf89a3d" tabindex="-1"
+                                                            type="text" value=""></div>
+
+                                                    <div class="clear | lg:text-right mt-48">
+                                                        <button type="submit" value="Subscribe to our newsletter"
+                                                            name="subscribe" id="mc-embedded-subscribe"
+                                                            class="c-button c-button--invert | c-newsletter__submit | js-newsletter-submit -disabled">
+                                                            <span class="c-button__arrow">
+                                                                <svg class="c-arrow" width="20px" height="14px"
+                                                                    viewBox="0 0 22 16" version="1.1"
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                                    <g stroke="none" stroke-width="1" fill="none"
+                                                                        fill-rule="evenodd">
+                                                                        <g class="c-arrow__g">
+                                                                            <rect class="" id="c-arrow__rect" x="0"
+                                                                                y="7" width="20" height="2"
+                                                                                transform="scale(0,1)"></rect>
+                                                                            <polygon
+                                                                                points="13.4875 0 12 1.6215 18.7875 8 12 14.3795 13.4875 16 21.9995 8">
+                                                                            </polygon>
+                                                                        </g>
+                                                                    </g>
+                                                                </svg></span>
+                                                            <span class="c-button__inner">Subscribe to our
+                                                                newsletter</span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+
+                                        <!--End mc_embed_signup-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="c-footer__extra">
+                            <div class="o-wrap">
+                                <div class="o-grid">
+                                    <div class="o-grid__col w-full md:w-1/2">
+                                        <div class="c-footer__socials">
+                                            <a href="https://www.facebook.com/BUBKA.Antwerp/" class="c-icon c-icon--fb"
+                                                aria-label="Go to our facebook page">
+                                                <i class="icon-facebook"></i>
+                                            </a>
+                                            <a href="https://twitter.com/bubka_antwerp" class="c-icon c-icon--twitter"
+                                                aria-label="Go to our Twitter profile">
+                                                <i class="icon-twitter"></i>
+                                            </a>
+                                            <a href="https://www.linkedin.com/company/bubka"
+                                                class="c-icon c-icon--linkedin" aria-label="Go to our Linkedin profile">
+                                                <i class="icon-linkedin"></i>
+                                            </a>
+                                            <a href="https://www.instagram.com/bubka_antwerp/"
+                                                class="c-icon c-icon--instagram"
+                                                aria-label="Go to our Instragram profile">
+                                                <i class="icon-instagram"></i>
+                                            </a>
+                                            <a href="https://www.youtube.com/user/TUBEBUBKA"
+                                                class="c-icon c-icon--youtube" aria-label="Go to our Youtube channel">
+                                                <i class="icon-youtube"></i>
+                                            </a>
+                                            <a href="https://www.pinterest.com/BUBKA_antwerp/"
+                                                class="c-icon c-icon--pinterest"
+                                                aria-label="Go to our Pinterest profile">
+                                                <i class="icon-pinterest"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="o-grid__col w-full md:w-1/2 mt-12 md:mt-0">
+                                        <div class="o-grid justify-between">
+                                            <div class="o-grid__col">
+                                                ©2022 Bubka
+                                            </div>
+                                            <div class="o-grid__col">
+                                                <a target="_blank" class="c-footer__creator"
+                                                    href="https://lunar.be/?utm_medium=partner&utm_source=Bubka (en)&utm_campaign=footer+reference"
+                                                    aria-label="Go to lunar.be">
+                                                    <svg height="16px" version="1.1" viewbox="0 0 18 16" width="18px"
+                                                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <g fill-rule="evenodd" fill="none" id="Symbols" stroke-width="1"
+                                                            stroke="none">
+                                                            <g fill="#7F7F7F" id="Footer"
+                                                                transform="translate(-1291.000000, -659.000000)">
+                                                                <g id="Group"
+                                                                    transform="translate(1291.000000, 659.000000)">
+                                                                    <path
+                                                                        d="M2.23177596,8.54470108 C2.22602398,4.38189799 5.59093281,1.00898967 9.73811103,1.00322401 C10.4053408,1.00322401 11.0495627,1.08970884 11.6650246,1.25114719 C10.4743646,0.46125242 9.04212134,0 7.50634244,0 C3.35341224,0.00576565525 -0.00574460495,3.37867398 0,7.54147707 C0.00575935684,11.0354641 2.37557549,13.9701827 5.59668479,14.817734 C3.57198751,13.4743363 2.23752794,11.1680742 2.23177596,8.54470108 Z"
+                                                                        id="Path"></path>
+                                                                    <path
+                                                                        d="M11.5855812,1.18226601 C13.6102785,2.53142934 14.9447381,4.83769144 14.95049,7.45529892 C14.956242,11.618102 11.5913332,14.9910103 7.44415498,14.996776 C6.7769252,14.996776 6.13270334,14.9102912 5.51724138,14.7488528 C6.70790142,15.5387476 8.14014467,16 9.67592357,16 C13.8288538,15.9942343 17.1880106,12.621326 17.182266,8.45852293 C17.1765067,4.96453585 14.8066905,2.02981733 11.5855812,1.18226601 Z"
+                                                                        id="Path"></path>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="c-loader | js-loader" data-open="true">
+        <div class="c-loader__backdrop"></div>
+        <div class="c-loader__progress | js-loader-progress">
+            <div class="c-loader__progress__inner | js-loader-progress__inner"></div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?render=explicit" async defer></script>
+    <script src="/js/text-animation.js"></script>
+    <script
+        type="application/ld+json">{"@context":"http://schema.org","@graph":[{"@type":"WebPage","author":{"@id":"#identity"},"copyrightHolder":{"@id":"#identity"},"copyrightYear":"2019","creator":{"@id":"#creator"},"dateModified":"2022-07-08T09:47:18+02:00","datePublished":"2019-07-10T12:33:00+02:00","description":"Bubka helps you stand out, so you can grow strong.","headline":"Stand out. Grow strong.","image":{"@type":"ImageObject","url":"https://www.bubka.be/uploads/_1200x630_crop_center-center_82_none/og-image.jpg?mtime=1573812336"},"inLanguage":"en","mainEntityOfPage":"https://www.bubka.be/en/","name":"Stand out. Grow strong.","publisher":{"@id":"#creator"},"url":"https://www.bubka.be/en"},{"@id":"#identity","@type":"Organization"},{"@id":"#creator","@type":"Organization"},{"@type":"BreadcrumbList","description":"Breadcrumbs list","itemListElement":[{"@type":"ListItem","item":"https://www.bubka.be/en","name":"Home","position":1}],"name":"Breadcrumbs"}]}</script>
+</body>
+
+</html>
